@@ -1,0 +1,318 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    position: relative;
+    width: 1050px;
+    max-height: 1000px;
+    background: white;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
+}
+
+.container .left_side {
+    position: relative;
+    background-color: rgb(0, 39, 101);
+    padding: 40px;
+    height: 1000px;
+}
+
+.profile_text {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 3px solid rgba(255, 255, 255, 0.2)
+}
+
+.profile_text .img {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.profile_text .img img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.profile_text .intro {
+    display: flex;
+    text-align: center;
+    margin-top: 10px;
+    color: rgb(162, 188, 236);
+    font-size: X-large;
+}
+
+.profile_text .mern {
+    font-size: 18px;
+    color: rgb(203, 196, 196);
+    margin-top: 8px;
+}
+
+.contact ul {
+    color: rgb(203, 196, 196);
+    font-style: none;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin-left: 15px;
+}
+
+.fa-phone {
+    margin-right: 10px;
+}
+
+.fa-envelope {
+    margin-right: 10px;
+}
+
+.fa-linkedin {
+    margin-right: 10px;
+}
+
+.fa-github {
+    margin-right: 10px;
+}
+
+.fa-location-dot {
+    margin-right: 10px;
+}
+
+.git {
+    display: flex;
+}
+
+.contact li {
+    margin-top: 20px;
+    font-size: 19px;
+}
+
+.contact .info {
+    color: rgb(162, 188, 236);
+    font-size: large;
+    margin-top: 40px;
+    margin-bottom: 13px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 3px solid rgba(255, 255, 255, 0.2);
+    padding-bottom: 35px;
+}
+
+.education .edu {
+    color: rgb(162, 188, 236);
+    font-size: large;
+    margin-top: 35px;
+    margin-bottom: 10px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 3px solid rgba(255, 255, 255, 0.2);
+    padding-bottom: 15px;
+}
+
+.education .edu_info ul {
+    color: rgb(203, 196, 196);
+    font-style: none;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin-left: 15px;
+}
+
+.education .edu_info li {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.isl {
+    display: flex;
+}
+
+.fa-book-open {
+    margin-right: 12px;
+}
+
+.hs {
+    margin-left: 15px;
+}
+
+.dee {
+    margin-left: 20px;
+    display: flex;
+}
+
+.fa-caret-right {
+    margin-right: 10px;
+}
+
+.fa-graduation-cap {
+    margin-right: 12px;
+}
+
+.objective {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.objective .object {
+    color: rgb(0, 39, 101);
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.objective .line {
+    width: 620px;
+    margin-bottom: 15px;
+    height: 1px;
+    background-color: rgb(87, 85, 85);
+}
+
+.exp_yr {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    height: 450px;
+    margin-left: 20px;
+}
+
+.experience .exp {
+    color: rgb(0, 39, 101);
+    margin-left: 20px;
+    margin-top: 25px;
+}
+
+.experience .line2 {
+    width: 620px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    margin-top: 20px;
+    height: 1px;
+    background-color: rgb(87, 85, 85);
+}
+
+.yr {
+    width: 200px;
+}
+
+.company {
+    width: 400px;
+}
+
+.yr1 {
+    margin-left: 10px;
+    margin-top: px;
+    color: rgb(120, 116, 116);
+}
+
+.yr2 {
+    margin-top: 110px;
+    margin-left: 10px;
+    color: rgb(116, 110, 110);
+}
+
+.yr3 {
+    margin-top: 115px;
+    margin-left: 10px;
+    color: rgb(116, 110, 110);
+}
+
+.com1 h3 {
+    color: rgb(11, 152, 213);
+}
+
+.com2 h3 {
+    color: rgb(11, 152, 213);
+    margin-top: 20px;
+}
+
+.com3 h3 {
+    color: rgb(11, 152, 213);
+    margin-top: 20px;
+}
+
+.professional .line3 {
+    width: 620px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    margin-top: 20px;
+    height: 1px;
+    background-color: rgb(87, 85, 85);
+}
+
+.professional .pro {
+    color: rgb(0, 39, 101);
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.professional .box {
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    display: flex;
+    font-size: 25px;
+    margin-left: 20px;
+    margin-top: 8px;
+    color: rgb(120, 116, 116);
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.professional .box .percent {
+    position: relative;
+    background-color: #f0f0f0;
+    width: 70%;
+    height: 10px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.professional .box .percent div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: #03a9f4;
+}
+
+.main {
+    border: 4px solid black;
+    padding-left: 14px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-right: 14px;
+
+}
